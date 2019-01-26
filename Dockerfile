@@ -6,8 +6,9 @@ LABEL maintainer="Chase Hutchins <syntaqx@gmail.com>"
 
 LABEL "com.github.actions.name"="go"
 LABEL "com.github.actions.description"="Wraps the golang CLI enabling go commands."
-LABEL "com.github.actions.icon"="code"
+LABEL "com.github.actions.icon"="terminal"
 LABEL "com.github.actions.color"="blue"
 
-ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT [ "/entrypoint.sh" ]
+ENV GO111MODULE on
+
+ENTRYPOINT [ "go" ]

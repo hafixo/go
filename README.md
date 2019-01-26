@@ -27,6 +27,9 @@ action "Test" {
 }
 ```
 
+### Environment variables
+
+* `GO111MODULE` (*optional*) Manually activate module mode. Defaults to `on`
 
 ## License
 

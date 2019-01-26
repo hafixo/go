@@ -1,8 +1,0 @@
-# ignore all files by default
-*
-
-# except required files
-!entrypoint.sh
-!LICENSE
-!README.md
-!THIRD_PARTY_NOTICE.md
