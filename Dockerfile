@@ -1,8 +1,8 @@
-FROM golang:1.11
+FROM golang:1.12
 
 LABEL repository="https://github.com/actions-contrib/go"
 LABEL homepage="https://github.com/actions-contrib/go"
-LABEL maintainer="Chase Hutchins <syntaqx@gmail.com>"
+LABEL maintainer="Chase Pierce <syntaqx@gmail.com>"
 
 LABEL "com.github.actions.name"="go"
 LABEL "com.github.actions.description"="Wraps the golang CLI enabling go commands."
